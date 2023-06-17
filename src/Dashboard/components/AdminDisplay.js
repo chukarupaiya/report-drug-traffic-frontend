@@ -25,7 +25,7 @@ function AdminDisplay() {
 
         const totalfetch = async () => {
             const response1 = await axios.post(
-                "http://localhost:3001/post/fetch/all",
+                process.env.REACT_APP_BACKEND_URL+"post/fetch/all",
                 {
 
                 }

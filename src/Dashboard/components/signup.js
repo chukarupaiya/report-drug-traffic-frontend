@@ -39,7 +39,7 @@ function Signup(props) {
     const [passcheck, setpasscheck] = useState(true);
 
     const SubmitHandler = async function () {
-        const result = await axios.post('http://localhost:3001/authentication/register', { user_name: Username, position: 2, password: password });
+        const result = await axios.post(process.env.REACT_APP_BACKEND_URL+'authentication/register', { user_name: Username, position: 2, password: password });
         props.setsignin(true);
     }
 

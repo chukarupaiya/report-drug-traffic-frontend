@@ -54,7 +54,7 @@ function SuperAdminCreate(){
     const SubmitHandler = async function () {
         let result;
         if(passcheck==true){
-            result = await axios.post('http://localhost:3001/authentication/register', {user_name:Adminname,position:1,password:password});
+            result = await axios.post(process.env.REACT_APP_BACKEND_URL+'authentication/register', {user_name:Adminname,position:1,password:password});
             setAdminname("")
             setpassword("")
             setpassword1("")

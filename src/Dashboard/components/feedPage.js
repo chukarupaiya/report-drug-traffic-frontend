@@ -11,7 +11,7 @@ function Feedpage(){
     useEffect(() => {
       const fetchdata = async () => {
         const response = await axios.post(
-          "http://localhost:3001/post/fetch/all",
+          process.env.REACT_APP_BACKEND_URL+"post/fetch/all",
           {}
         );
         var duplicates = response.data.result;

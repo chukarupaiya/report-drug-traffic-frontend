@@ -92,7 +92,7 @@ const FileInput = (props) => {
         const res = await axios.post('http://127.0.0.1:8000/objectdetection/', formData);
         console.log(res.data);
 
-      const result1=await axios.post('http://localhost:3001/location/add',{
+      const result1=await axios.post(process.env.REACT_APP_BACKEND_URL+'location/add',{
         latitude:parseFloat(latitude),
         longitude:parseFloat(longitude)
       });
@@ -141,7 +141,7 @@ const FileInput = (props) => {
 
       let Val = `${month} ${year}`;
 
-      const result=await axios.post('http://localhost:3001/post/add',{
+      const result=await axios.post(process.env.REACT_APP_BACKEND_URL+'post/add',{
           user_id:localStorage.getItem("userid"),
           like:0,
           address:metadata.url,

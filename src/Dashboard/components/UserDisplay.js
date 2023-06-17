@@ -20,7 +20,7 @@ function UserDisplay() {
   useEffect(() => {
     const fetchdata = async () => {
       const response = await axios.post(
-        "http://localhost:3001/post/fetch/byid",
+        process.env.REACT_APP_BACKEND_URL+"post/fetch/byid",
         {
           user_id: localStorage.getItem("userid"),
         }
@@ -33,7 +33,7 @@ function UserDisplay() {
 
     const totalfetch = async () => {
       const response1 = await axios.post(
-        "http://localhost:3001/post/fetch/all",
+        process.env.REACT_APP_BACKEND_URL+"post/fetch/all",
         {
 
         }

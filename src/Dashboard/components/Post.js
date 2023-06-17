@@ -35,7 +35,7 @@ function Post(props) {
             const value = (likes == 1) ? 0 : 1;
             setlikes(value)
             const response = await axios.post(
-                "http://localhost:3001/post/update",
+                process.env.REACT_APP_BACKEND_URL+"post/update",
                 {
                     user_id:props.userid,
                     post_id:props.postid,
@@ -49,7 +49,7 @@ function Post(props) {
         const value = (seen == 1) ? 0 : 1;
         setseen(value)
         const response = await axios.post(
-            "http://localhost:3001/post/update",
+            process.env.REACT_APP_BACKEND_URL+"post/update",
             {
                 user_id:props.userid,
                 post_id:props.postid,
