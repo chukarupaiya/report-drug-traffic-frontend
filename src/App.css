@@ -1,0 +1,1637 @@
+.App{
+  display: flex;
+  flex-direction: row;
+  height:100vh;
+  width:100vw;
+  opacity: 1;
+  color: rgb(52, 71, 103);
+  overflow-x: hidden;
+  position: relative;
+  background: linear-gradient(310deg, rgb(15, 18, 59) 14.25%, rgb(9, 13, 46) 56.45%, rgb(2, 5, 21) 86.14%) !important;
+}
+
+
+.login-pic-container{
+    height: 100vh;
+    width: 50%;
+    object-fit:cover;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 1;
+    background: url(https://demos.creative-tim.com/vision-ui-dashboard-pro-react/static/media/background-cover-auth-signup.a237cf3d.png) center center / cover transparent;
+    color: rgb(52, 71, 103);
+}
+
+.login-pic-h2{
+  margin: 0px 0px 8px;
+  font-family: Arial, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.625;
+  text-align: center;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  letter-spacing: 8px;
+}
+
+.login-pic-h6{
+    font-size: 2.45rem;
+    line-height: 1.3;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    color: inherit;
+    font-weight: 700;
+    background-image: linear-gradient(97.89deg, rgb(255, 255, 255) 70.67%, rgba(117, 122, 140, 0) 108.55%);
+    display: inline-block;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 1;
+    letter-spacing: 8px;
+    margin: 0px 0px 10px;
+    text-decoration: none;
+}
+
+.loginOuter{
+    opacity: 1;
+    color: rgb(52, 71, 103);
+    display: flex;
+    position: relative;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    margin: 0px auto;
+}
+
+.loginalign{
+  position: absolute;
+  top: 20%;
+}
+
+.loginDesign{
+    margin-bottom: 20%;
+    opacity: 1;
+    background: transparent;
+    color: rgb(52, 71, 103);
+}
+
+.loginDesignh3{
+  margin: 0px 0px 10px;
+  font-size: 1.875rem;
+  line-height: 1.375;
+  font-family:  Arial, sans-serif;
+  text-align: center;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.NavOuter {
+  width: 100%;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+@media (min-width: 0px)
+{
+.responsiveNavBar {
+    position: absolute;
+    left: 50%;
+    z-index: 3;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 100% !important;
+    max-width: 540px !important;
+    transform: translate(-50%, 0px);
+}
+}
+
+
+@media (min-width: 768px)
+{
+.responsiveNavBar {
+    position: absolute;
+    left: 50%;
+    z-index: 3;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 100% !important;
+    max-width: 720px !important;
+    transform: translate(-50%, 0px);
+}
+}
+
+
+@media (min-width: 1024px){
+  .responsiveNavBar{
+    position: absolute;
+    left:50%;
+    z-index: 3;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 100% !important;
+    max-width: 960px !important;
+    transform: translate(-50%, 0px);
+}
+
+}
+
+@media (min-width: 0px)
+{
+  .NavInner{
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+}
+
+
+.NavInner {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 0.0625rem solid rgba(226, 232, 240, 0.3);
+  width: calc(100% - 48px);
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: 1044px;
+  opacity: 1;
+  background: transparent;
+  color: rgb(52, 71, 103);
+  border-radius: 1.25rem;
+  box-shadow: rgb(20 20 20 / 12%) 0rem 0.25rem 0.375rem -0.0625rem, rgb(20 20 20 / 7%) 0rem 0.125rem 0.25rem -0.0625rem;
+  backdrop-filter: blur(42px);
+}
+
+
+
+.NavAlways {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  letter-spacing: 2px;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  color: inherit;
+  font-weight: 500;
+  background-image: linear-gradient(97.89deg, rgb(255, 255, 255) 70.67%, rgba(117, 122, 140, 0) 108.55%);
+  display: inline-block;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  margin: 0px auto;
+}
+
+.NavitemsDiv {
+  margin: 0px;
+  padding: 0px;
+  opacity: 1;
+  background: transparent;
+  color: inherit;
+  position: relative;
+}
+
+@media (min-width: 0px)
+{
+.NavitemsDiv {
+    display: none;
+    position: relative;
+}
+}
+
+@media (min-width: 1024px)
+{
+.NavitemsDiv {
+    display: flex;
+    position: relative;
+}
+}
+
+.NavitemsDivRes {
+  display: block;
+  position: absolute;
+  background: linear-gradient(126.97deg, rgb(5, 21, 63) 28.26%, rgb(7, 37, 97) 91.2%);
+  backdrop-filter: blur(28px);
+  width:92%;
+  top:102%;
+  border: 0.0625rem solid rgba(226, 232, 240, 0.3);
+  border-radius: 1.25rem;
+}
+
+
+
+.NavitemDiv {
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 8px;
+  display: flex;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  opacity: 1;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  user-select: none;
+}
+
+.NavitemDivRes{
+    padding: 2%;
+}
+
+.NavitemDivSpan{
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    opacity: 1;
+    text-transform: capitalize;
+    vertical-align: unset;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+}
+
+.NavItemMenu {
+  line-height: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  opacity: 1;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+@media (min-width: 0px)
+{
+.NavItemMenu {
+    display: inline-block;
+}
+}
+
+@media (min-width: 1024px)
+{
+.NavItemMenu {
+    display: none;
+  }
+}
+
+.NavItemMenuicon {
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+
+.loginDesignp {
+  margin: 0px auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.625;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 0.875rem;
+  text-align: center !important;
+}
+
+.outlined-basic{
+  border: 1px solid white !important;
+  color:white;
+  
+}
+
+.loginDesignp1 {
+  margin: 0px auto;
+  margin-top:10%;
+  font-family: Arial, sans-serif;
+  line-height: 1.625;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: #8c99ae;
+  font-weight: 400;
+  font-size: 0.875rem;
+  text-align: center !important; 
+}
+
+.loginDesignspan{
+  color:white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loginDesignp2 {
+  margin: 0px auto;
+  margin-top:20%;
+  font-family: Arial, sans-serif;
+  line-height: 1.625;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center !important; 
+}
+
+.loginDesignp3 {
+  margin: 0px auto;
+  margin-top:10%;
+  font-family: Arial, sans-serif;
+  line-height: 1.625;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center !important; 
+}
+
+@media (min-width: 0px)
+{
+  .login-pic-container{
+      display: none;
+  }
+
+  .loginOuter{
+     width:100%;
+  }
+
+  .loginDesignp2{
+    margin-bottom: 10%;
+  }
+  .loginDesignp3{
+    margin-bottom: 10%;
+  }
+
+}
+
+
+@media (min-width: 768px)
+{
+  .login-pic-container{
+    display: none;
+}
+
+.loginOuter{
+   width:100%;
+}
+.loginDesignp2{
+  margin-bottom: 10%;
+}
+.loginDesignp3{
+  margin-bottom: 10%;
+}
+}
+
+
+@media (min-width: 1024px){
+
+  .login-pic-container{
+    display: flex;
+  }
+
+  .loginOuter{
+    width:50%;
+  }
+  .loginDesignp2{
+    margin-bottom: 0;
+  }
+  .loginDesignp3{
+    margin-bottom: 0;
+  }
+
+}
+/* linear-gradient(90deg, rgba(44,32,173,1) 30%, rgba(0,212,255,0) 70%), */
+.DashBg{
+  width:100%;
+  height: 100%;
+  background: url(./Dashboard/components/bg.png);
+  background-color: #2c20ad;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  align-items: stretch;
+  position: relative;
+  padding-bottom: 5%;
+  z-index: 0;
+}
+
+.DashBg1{
+  width:75px;
+  background-color: rgba(6, 1, 41, 0.407);
+  backdrop-filter: blur(45px);
+  position: fixed;
+  height: 100vh;
+  top:0;
+  left: 0;
+  z-index: 10;
+}
+
+.DashBg2{
+  width:calc(100%-80px);
+  height: 100%;
+  padding-left: 100px;
+  box-sizing: border-box;
+  /* display: flex; */
+  /* flex-direction: column;
+  align-items: flex-start; */
+}
+
+.NavDash{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  padding-top: 40px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.NavDashicon1{
+  user-select: none;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  color: white;
+}
+
+.NavDashicon2{
+  user-select: none;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  color: white;
+}
+
+.NavDashicon3{
+  user-select: none;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  color:white;
+}
+
+.NavDashicon1div{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #262346;
+}
+
+.NavDashicon2div{
+  text-align: center;
+  width: 100%;
+  background-color: rgba(2,120,255,255);
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border-radius: 27px;
+  padding:1px;
+  padding-top: 7px;
+  box-sizing: border-box;
+  
+}
+
+.NavDashicon3div{
+  text-align: center;
+  width: 100%;
+  background-color: rgba(2,120,255,255);
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border-radius: 27px; 
+  padding: 1px;
+  box-sizing: border-box;
+  padding-top: 7px;
+}
+
+.NavDashicon4div{
+  text-align: center;
+  width: 100%;
+  background-color: rgba(2,120,255,255);
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border-radius: 27px; 
+  padding: 1px;
+  box-sizing: border-box;
+  padding-top: 7px;
+  transform: translateY(60vh);
+}
+
+.DashBg1:hover{
+  width:250px;
+  transition: 0.3s ease-in;
+  overflow-x: hidden;
+
+}
+
+.DashBg1:hover .NavDashicon2div{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 16px;
+  padding-top: 0;
+  margin: 0%;
+  margin-top:25px ;
+  gap: 10px;
+
+
+
+}
+.DashBg1:hover .NavDashicon3div{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 16px;
+  padding-top: 0;
+  gap: 10px;
+
+}
+
+.DashBg1:hover .NavDashicon4div{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 16px;
+  padding-top: 0;
+  gap: 10px;
+
+}
+
+.NavDashp{
+  display: none;
+  margin:0px;
+  padding: 1px;
+  box-sizing: border-box;
+  padding-top: 7px;
+} 
+
+
+
+.DashBg1:hover .NavDashp{
+  display: inline-block;
+  color:rgb(255, 255, 255);
+  font-size: 14px;
+  padding: 1px;
+  box-sizing: border-box;
+  padding-top: 3.5px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  user-select: none;
+  height: 27px;
+  color:white;
+}
+
+
+nav a{
+  text-decoration: none;
+}
+
+.active div{
+  background-color: white;
+}
+
+.active .navicon{
+  color:rgba(2,120,255,255);
+}
+
+.active div .NavDashp{
+  color: rgba(2,120,255,255) !important;
+  font-weight: bold;
+}
+
+
+.UserDisplayGeneral{
+  font-size: 2vw;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2%;
+  padding-top:2% ;
+
+}
+
+
+
+.Statsdivblock{
+  display: flex;
+  flex-direction: row;
+  gap:5%;
+  flex-wrap: wrap;
+}
+
+
+
+.username{
+  background: url(https://demos.creative-tim.com/vision-ui-dashboard-pro-react/static/media/welcome-profile.7ff4f89a.png) 0% 0% / cover;
+  margin-top: 2%;
+  flex-basis: 20%;
+  width:380px;
+  height:480px;
+  border-radius: 27px;
+  padding-left: 2%;
+  padding-top: 0.5%;
+  color: white;
+  margin-right: 2%;
+}
+
+.StatsdivblockTotal{
+  display: flex;
+  flex-direction: row;
+}
+
+.Statsdivblock{
+  margin-top: 2%;
+  flex-basis: 40%;
+  width:600px;
+  height:400px;
+  border-radius: 27px;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: row;
+}
+
+.Statsdivblockdiv{
+  flex-basis: 40%;
+  height: fit-content;
+  padding:10px;
+  padding-bottom:20px;
+  box-sizing: border-box;
+  background-color: black;
+  background :linear-gradient(127.09deg, rgb(6, 11, 40) 19.41%, rgba(10, 14, 35, 0.566) 76.65%) border-box;
+  border-radius: 20px;
+}
+
+.Statsdivblockdiv2{
+  display: flex;
+  flex-direction: row;
+}
+
+.Statsblockicondiv{
+  flex-basis: 30%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.StatsblockIcon{
+  user-select: none;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  color:white;
+  background-color: rgba(2,120,255,255);
+  padding: 10px;
+  border-radius: 10%;
+
+}
+
+.Statsblockicondiv1{
+  flex-basis: 20%;
+  margin-left: 60%;
+  margin-top: 5%;
+}
+
+.StatsblockIcon1{
+  user-select: none;
+  width: 50%;
+  height: 80%;
+  overflow: hidden;
+  color:white;
+  padding: 10%;
+  border-radius: 10%;
+}
+
+.Statsdivblockdiv3 p{
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  font-size: 14px;
+  color: rgb(237, 237, 237);
+}
+
+.Statsdivblockdiv3{
+    display: flex;
+    flex-direction:column;
+    color: white;
+    margin-left: 5%;
+    margin-top: 10%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.Statsblockpcontent{
+  font-size:34px !important;
+  color: white !important;
+  font-weight: 550;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.charts{
+  width:95%;
+  height:600px;
+  box-sizing: border-box;
+  background :linear-gradient(127.09deg, rgba(6, 11, 40, 0.94) 19.41%, rgba(10, 14, 35, 0.49) 76.65%) border-box;
+  color:white !important;
+  padding: 2%;
+  margin-top: 2%;
+  border-radius: 27px;
+}
+
+.olddivcontainer{
+  width:calc(100vw-75px);
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.threeGlobe{
+  position: fixed;
+  top:10vh;
+  right: 5vw;
+  z-index: -1;
+  background: transparent;
+}
+
+.CardDash{
+  width:490px;
+  box-sizing: none;
+  background-color: rgba(6,1,41,120);
+  margin: 50px;
+  height: 500px;
+  border-radius: 27px;
+  display: flex;
+  margin-top: 80px;
+  flex-direction: column;
+  position: relative;
+}
+
+.CardDashImage{
+  width:420px;
+  height: 310px;
+  object-fit: cover;
+  margin:37px;
+  margin-bottom: 0;
+  background:url(https://www.promises.com/wp-content/uploads/2019/11/opiate-detox-centers-1200x900.jpg);
+  flex-basis: 60%;
+  transform: translate(0,-50px);
+  border-radius: 27px;
+  /* filter: drop-shadow(0px 1px 3px rgba(2,120,255,255)); */
+  box-shadow: 0px 15px 40px -15px rgba(2,120,255,255);
+  transition-duration: 0.4s;
+  z-index: 2;
+  background-size: cover;
+}
+
+.CardDashp{
+  width:420px;
+  margin-right: 40px;
+  margin-left: 40px;
+  color:white;
+  flex-basis: 25%;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.Cardicon{
+  user-select: none;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  color:white;
+  padding: 10px;
+  border-radius: 10%;
+  position: absolute;
+  top:52%;
+  left:50%;
+}
+
+.Cardicon1{
+  user-select: none;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  color:white;
+  padding: 10px;
+  border-radius: 10%;
+  transform: translate();
+  position: absolute;
+  top:52%;
+  left:40%;
+}
+
+.CardDash:hover .CardDashImage{
+  transform: translate(0,-80px);
+}
+
+
+@media (max-width:1400px ){
+  .username{
+    padding-right: 5%;
+  }
+
+  .Statsdivblock{
+    flex-basis: 58%;
+  }
+
+  .olddivcontainer{
+    justify-content: center;
+  }
+
+  .charts{
+    height: 450px;
+  }
+}
+
+@media (max-width:900px) {
+  .threeGlobe{
+    display: none;
+  }
+  .username{
+    flex-basis: 35%;
+    padding-right: 5%;
+    height: 400px;
+  }
+
+  .Statsdivblock{
+    flex-basis: 65%;
+  }
+
+  .olddivcontainer{
+    justify-content: center;
+  }
+
+  .charts{
+    height: 450px;
+  }
+  .Statsdivblockdiv{
+    flex-basis: 45%;
+    padding-bottom: 5%;
+  }
+  .UserDisplayGeneral{
+    font-size: 4vw;
+  }
+}
+@media (max-width:600px) {
+  .UserDisplayGeneral{
+    font-size: 7vw;
+  }
+  .StatsdivblockTotal{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .username{
+    width: 85%;
+    padding-left: 5%;
+    padding-bottom: 15%;
+  }
+
+  .username h1{
+    font-size: 2vw;
+  }
+  .Statsdivblock{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    margin: 0%;
+    width: 100%;
+  }
+  .Statsdivblockdiv{
+    height: 150px;
+    width:200px;
+    margin: 15px 0px 15px 0px;
+  }
+
+  .DashBg{
+    height: fit-content;
+  }
+
+  .charts{
+    height: 250px;
+    width: 100%;
+  }
+  .CardDash{
+    width: 105%;
+    height: 380px;
+  }
+  .CardDashImage{
+    width:75%;
+  }
+  .CardDashp{
+    margin-left: 5%;
+    width: 250px;
+    flex-basis: 30%;
+    font-size: small;
+    padding-bottom: 3%;
+  }
+}
+
+
+
+
+.ImageHandlerMainDiv{
+  width:100%;
+  height:40vh;
+  padding-top: 2%;
+  margin-bottom: 5%;
+}
+
+.ImageHandlerMainDiv1{
+  width:520px;
+  height: 350px;
+  background-color:rgba(255,255,255,0.1);
+  backdrop-filter: blur(100px);
+  margin:0 auto;
+  border-radius: 27px;
+}
+
+.TbCameraPlus{
+  user-select: none;
+  width: 44px;
+  height: 44px;
+  color: white;
+  display: block;
+  margin:0 auto;
+  padding-top: 29%;
+  padding-bottom: 29%;
+}
+
+.FileUploaderMainDiv{
+  width:100%;
+  height:100%;
+  background-color: transparent;
+}
+
+.TbCameraPlus1{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  object-fit: contain;
+}
+
+.FileUploaderMainDiv1{
+  width:70vw;
+  height: 600px;
+  background-color:rgb(6,1,41);
+  backdrop-filter: blur(100px);
+  margin:0 auto;
+  border-radius: 27px;
+  padding:2%;
+}
+
+.FileUploaderMainDiv2{
+  width:90%;
+  background-color:rgba(255,255,255,0.1);
+  backdrop-filter: blur(100px);
+  margin:1% auto;
+  border-radius: 27px;
+}
+
+.FileUploaderMainDiv3{
+  width:25%;
+  background-color:rgba(255,255,255,0.1);
+  backdrop-filter: blur(100px);
+  margin-left:5% ;
+  border-radius: 27px;
+  display: inline-block;
+}
+
+.FileUploaderMainDiv4{
+  width:25%;
+  background-color:rgba(255,255,255,0.1);
+  backdrop-filter: blur(100px);
+  margin-left: 2%;
+  border-radius: 27px;
+  display: inline-block;
+}
+
+.FileUploaderMainDiv5{
+    width: 15%;
+    height: 70px;
+    transform: translate(60vw,0);
+}
+
+.DateTime{
+  width: 100%;
+  margin-top: 1%;
+  margin-left: 5.5%;
+}
+#DateTime{
+  width: 60%;
+  height: 30px;;
+  background-color:rgba(31,27,62,255);
+  border: 0.2px solid white;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#Datetime::after{
+  color: white;
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.DateLabel{
+  margin-right: .5%;
+  margin-left: .5%;
+  color: #ffff;
+  font-size:medium;
+  display: block;
+  margin-bottom: 1%;
+}
+.SpotTime{
+  height: 4%;
+  font-size: large;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+
+@media (max-width: 928px) {
+  .ImageHandlerMainDiv1{
+    width: 370px;
+    height: 280px;
+    margin-top: 2%;
+  }
+  .ImageHandlerMainDiv{
+    display: inline-block;
+  }
+
+  .ImageHandlerMainDiv{
+    height:30vh;
+  }
+
+  .FileUploaderMainDiv3{
+    width: 43.8%;
+    margin-bottom:10px;
+    margin-top: 8px;
+  }
+  .FileUploaderMainDiv4{
+    width:43.8%;
+    margin-bottom: 10px;
+    margin-top: 8px;
+  }
+  .FileUploaderMainDiv5{
+    width: 90%;
+    transform: translate(4vw,0);
+  }
+  .DashBg{
+    height: fit-content;
+    padding-bottom: 20%;
+  }
+  
+  
+}
+
+@media (max-width:610px) {
+  .ImageHandlerMainDiv1{
+    width: 250px;
+    height: 200px;
+    margin-top: 5%;
+  }
+  .ImageHandlerMainDiv{
+    display: inline-block;
+    margin-left: 3%;
+  }
+
+
+  .ImageHandlerMainDiv{
+    height:20vh;
+  }
+
+  .FileUploaderMainDiv2{
+    width: 90%;
+    margin-top: 4%;
+  }
+
+  .FileUploaderMainDiv3{
+    width: 90%;
+    margin-bottom:10px;
+    margin-top: 8px;
+  }
+  .FileUploaderMainDiv4{
+    width:90%;
+    margin-bottom: 15px;
+    margin-top: 8px;
+    margin-left: 15px;
+  }
+  .FileUploaderMainDiv5{
+    width: 90%;
+    margin-left: -3px;
+    transform: translate(4vw,0);
+  }
+  .DashBg{
+    height: fit-content;
+    padding-bottom: 20%;
+  }
+
+  .FileUploaderMainDiv1{
+    height: 580px;
+    width: 65vw;
+  }
+  .DashBg2{
+    padding-right: 50px;
+  }
+
+}
+
+
+.AdminDisplayGeneral{
+  font-size: 2vw;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2%;
+  padding-top:2% ;
+
+}
+
+
+.StatsdivblockAdmin{
+  display: flex;
+  flex-direction: row;
+  gap:5%;
+  flex-wrap: wrap;
+}
+
+
+
+.usernameAdmin{
+  background: url(https://demos.creative-tim.com/vision-ui-dashboard-pro-react/static/media/welcome-profile.7ff4f89a.png) 0% 0% / cover;
+  margin-top: 2%;
+  flex-basis: 20%;
+  width:380px;
+  height:480px;
+  border-radius: 27px;
+  padding-left: 2%;
+  padding-top: 0.5%;
+  color: white;
+  margin-right: 2%;
+}
+.usernameAdmin h1{
+  font-size: 2vw;
+}
+
+
+
+.StatsdivblockAdminTotal{
+  display: flex;
+  flex-direction: row;
+}
+
+.StatsdivblockAdmin{
+  margin-top: 2%;
+  flex-basis: 40%;
+  width:600px;
+  height:400px;
+  border-radius: 27px;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: row;
+}
+
+.StatsdivblockAdmindiv{
+  flex-basis: 40%;
+  height: fit-content;
+  padding:10px;
+  padding-bottom:20px;
+  box-sizing: border-box;
+  background-color: black;
+  background :linear-gradient(127.09deg, rgb(6, 11, 40) 19.41%, rgba(10, 14, 35, 0.566) 76.65%) border-box;
+  border-radius: 20px;
+}
+
+.StatsdivblockAdmindiv2{
+  display: flex;
+  flex-direction: row;
+}
+
+.StatsblockicondivAdmin{
+  flex-basis: 20%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.StatsblockAdminIcon{
+  user-select: none;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  color:white;
+  background-color: rgba(2,120,255,255);
+  padding: 10px;
+  border-radius: 10%;
+
+}
+
+.StatsblockicondivAdmin1{
+  flex-basis: 20%;
+  margin-left: 60%;
+  margin-top: 5%;
+}
+
+.StatsblockAdminIcon1{
+  user-select: none;
+  width: 50%;
+  height: 80%;
+  overflow: hidden;
+  color:white;
+  padding: 10%;
+  border-radius: 10%;
+}
+
+.StatsdivblockAdmindiv3 p{
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  font-size: 14px;
+  color: rgb(237, 237, 237);
+}
+
+.StatsdivblockAdmindiv3{
+  display: flex;
+  flex-direction:column;
+  color: white;
+  margin-left: 5%;
+  margin-top: 10%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.StatsblockpcontentAdmin{
+  font-size:28px !important;
+  color: white !important;
+  font-weight: 550;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.ShapesAdmin{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  height: 500px;
+}
+
+
+.chartsAdmin{
+  width:70%;
+  height:100%;
+  box-sizing: border-box;
+  background :linear-gradient(127.09deg, rgba(6, 11, 40, 0.94) 19.41%, rgba(10, 14, 35, 0.49) 76.65%) border-box;
+  color:white !important;
+  padding: 2%;
+  margin-top: 2%;
+  border-radius: 27px;
+}
+
+.Donouts{
+  width:380px;
+  height: 260px;
+  padding: 2%;
+  margin: 0 auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border-radius: 27px;
+  margin-left: 3%;
+  box-sizing: border-box;
+  background :linear-gradient(127.09deg, rgba(6, 11, 40, 0.94) 19.41%, rgba(10, 14, 35, 0.49) 76.65%) border-box;
+  
+}
+
+/* 
+.StatsblockAdminIconDonouts{
+  user-select: none;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  color:white;
+  background-color: rgba(2,120,255,255);
+  padding: 3px;
+  border-radius: 4px;
+} */
+
+/* .Donoutsp{
+  font-size: 1.5vw;
+  color: white;
+}
+
+.DonoutsDiv{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 0;
+  gap:8%;
+  padding-left: 5%;
+} */
+
+
+
+@media (max-width:1414px ){
+  .usernameAdmin{
+    padding-right: 5%;
+  }
+
+  .StatsdivblockAdmin{
+    flex-basis: 58%;
+  }
+
+  .ShapesAdmin{
+    height: 400px;
+  }
+  
+  .Donouts{
+    height:200px;
+    width: 350px;
+  }
+
+  .chartsAdmin{
+    width:60%;
+  }
+}
+
+@media (max-width:930px) {
+  .threeGlobe{
+    display: none;
+  }
+  .usernameAdmin{
+    flex-basis: 35%;
+    padding-right: 5%;
+    height: 400px;
+  }
+
+  .StatsdivblockAdmin{
+    flex-basis: 65%;
+  }
+
+
+  .chartsAdmin{
+    width: 80%;
+    height: 400px;
+  }
+  .StatsdivblockdivAdmin{
+    flex-basis: 45%;
+    padding-bottom: 5%;
+  }
+  .AdminDisplayGeneral{
+    font-size: 4vw;
+  }
+
+  .ShapesAdmin{
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: fit-content;
+  }
+
+  .Donouts{
+   margin-right: auto;
+   margin-left: auto;
+  }
+}
+
+
+@media (max-width:600px) {
+  .AdminDisplayGeneral{
+    font-size: 7vw;
+  }
+  .StatsdivblockAdminTotal{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .usernameAdmin{
+    width: 85%;
+    padding-left: 5%;
+    padding-bottom: 15%;
+  }
+
+  .usernameAdmin h1{
+    font-size: 4vw;
+  }
+
+  .StatsdivblockAdmin{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    margin: 0%;
+    width: 100%;
+  }
+  .StatsdivblockAdmindiv{
+    height: 150px;
+    width:200px;
+    margin: 15px 0px 15px 0px;
+  }
+
+  .DashBg{
+    height: fit-content;
+  }
+
+  .Donouts{
+    width:260px;
+    height: 120px;
+   }
+
+   .chartsAdmin{
+    width: 80%;
+    height: 230px;
+  }
+}
+
+
+.olddivcontainerAdmin{
+  width:calc(100vw-75px);
+  background-color: transparent;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emptydivcontianerAdmin{
+  height: 89.7vh;
+  text-align: center;
+  font-size: 2vw;
+  color: white;
+  box-sizing: border-box;
+  padding-top: 23%;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+
+
+
+
+.PostDash{
+  box-sizing: none;
+  width:40%;
+  height:70vh;
+  background-color: rgba(6,1,41,120);
+  margin: 50px;
+  border-radius: 27px;
+  display: flex;
+  margin-top: 80px;
+  flex-direction: column;
+  padding-bottom: 1%;
+}
+
+.PostDashImage{
+  width:100%;
+  height: 70%;
+  margin-bottom: 0;
+  object-fit: cover;
+  border-radius: 27px; 
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; 
+  /* filter: drop-shadow(0px 1px 3px rgba(2,120,255,255)); */
+
+  background-size: cover;
+}
+
+.PostDashp{
+  width:97%;
+  padding-left: 2%;
+  height: 70%;
+  margin:auto;
+  color:white;
+  flex-basis: 10%;
+  margin-top: 5%;
+  overflow:hidden;
+}
+
+.PostDashUser{
+  align-self: flex-end;
+  flex-basis: 9%;
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 27px;
+  border-bottom-left-radius: 27px;
+  display: flex;
+  gap:2%;
+}
+
+.PostDashIconDiv{
+  flex-basis: 10%;
+}
+
+.hoverelement{
+  cursor: pointer;
+}
+
+.hoverelement:hover{
+  background-color: white;
+}
+
+.PostDash{
+  position: relative;
+}
+
+.texth5aggregate{
+  color:white;
+  position:absolute;
+  top:88%;
+  left:36%;
+}
+
+
+
+.PostDashIcon{
+  user-select: none;
+  width: 50%;
+  height: 57%;
+  overflow: hidden;
+  background-color: white;
+  color:rgba(2,120,255,255);
+  padding: 10%;
+  border-radius:100%;
+  margin-left: 30%;
+  margin-top: 6%;
+}
+
+.PostDashUserPdiv{
+  flex-basis: 70%;
+  color:white;
+}
+
+.PostDashIcon1{
+  user-select: none;
+  width: 40%;
+  height: 47%;
+  overflow: hidden;
+  color:rgba(2,120,255,255);
+  padding: 10%;
+  border-radius:100%;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+.likes{
+  color:white
+}
+
+
+
+.logoutsuperAdmin{
+  position: absolute;
+  top:4%;
+  right: 3%;
+}
